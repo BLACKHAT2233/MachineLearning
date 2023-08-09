@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Practical2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/bcef99e9c6.css" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="coffee_shop.html"><h4>The Coffee Spot</h4></a>
+            <ul class="nav_menu">
+                <li><a href="coffee_shop.html">Home</a></li>
+                <li><a href="#about.html">About</a></li>
+                <li><a href="#Menu.html">Menu</a></li>
+                <li><a href="#contact.html">Contact us</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <!-- HEADER -->
+
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, minus error omnis id non esse accusamus ad magni laudantium. Qui facilis voluptatum beatae minus nulla.
+            </div>
+            <div class="header_right">
+                <div class="header_right-image">
+                    <img src="Cup-o-coffee-simple.svg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+   <section class="menus">
+        <h2>Popular Menu</h2>
+        <div class="container menus_container">
+            <article class="menu">
+                <div class="menu_image">
+                    <img src="Espresso.jpg" alt="">
+                </div>
+                <div class="menu_info">
+                    <h4>Espresso</h4>
+                    <p>
+                        Espresso is a type of coffee beverage made by forcing very hot, but not boiling, water under pressure through finely ground coffee beans.</p>
+                        <a href="#buy.html" class="btn btn-primary">250 ₹</a>
+                </div>
+            </article>
+
+
+            <article class="menu">
+                <div class="menu_image">
+                    <img src="cappuccino.jpg" alt="">
+                </div>
+                <div class="menu_info">
+                    <h4>Cappuccino</h4>
+                    <p>cappuccino is usually topped with cocoa or cinnamon powder, or a small sprinkle of chocolate chips.</p>
+                        <a href="#buy.html" class="btn btn-primary">200 ₹</a>
+                </div>
+            </article>
+
+
+            <article class="menu">
+                <div class="menu_image">
+                    <img src="Brewed_Coffee.jpg" alt="">
+                </div>
+                <div class="menu_info">
+                    <h4>Brewed Coffee</h4>
+                    <p>Brewed coffee is a type of coffee that is made by pouring hot water over coffee grounds, which are typically contained in a filter.</p>
+                        <a href="#buy.html" class="btn btn-primary">250 ₹</a>
+                </div>
+            </article>
+
+        </div>
+   </section>
+
+   <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="coffee_shop.html" class="footer_logo"><h4>The Coffee Spot</h4></a>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur quod dolor minus, ducimus rem?
+                </p>
+            </div>
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <p>+91 862 303 3985</p>
+                <p>vsnarwade7117@gmail.com</p>                    
+            </div>         
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; The Coffee Spot</small>
+        </div>
+   </footer>
+
+   <script>
+        window.addEventListener('scroll', () => {
+            document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+        })
+   </script>
+
+
+
+</body>
+</html>

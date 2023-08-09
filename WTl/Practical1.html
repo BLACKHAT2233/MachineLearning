@@ -1,0 +1,82 @@
+<html>  
+<head>   
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;   
+  color: white; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
+
+.container { 
+    display: flex; 
+    padding: 30px;   
+    height: 1000px;
+    width: 600px;
+    flex-direction: column;
+    background-color:rgba(30, 8, 101, 0.9);
+    border-radius: 20px;
+    background: rgba(0,0,0,0.8);
+    margin: auto;
+    
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+label{
+font-weight:bold;
+}
+
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 30%;  
+  opacity: 0.9;
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Company Registration Form</h1> </center>  
+  <br> 
+  <label>Company Name:</label>   
+<input type="text" name="Company name" placeholder= "Company name" size="15" required />   
+<label >  Owner: </label>   
+<input type="text" name="Owner name" placeholder="Owner name" size="15" required />   
+  
+
+<label>Phone:</label>    
+<input type="text"  name="phone" placeholder="Phone no." size="10" required>   
+<label>Current Address:</label>  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email">Email:</label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+<label>Company description:</label>  
+<textarea cols="80" rows="5" placeholder="Company description" value="address" required>  
+</textarea>  
+
+<label> Website:</label>   
+<input type="text" name="Website" placeholder= "Website" size="15" required />
+    <center><button type="submit" class="registerbtn">Register</button></center>  
+</div> 
+</form>  
+</body>  
+</html>  
